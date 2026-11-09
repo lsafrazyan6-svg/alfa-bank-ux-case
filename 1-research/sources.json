@@ -12,7 +12,8 @@
       "outcome": "решено по словам автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R01"
+      "quote_location": "open-research.md — история № 1",
+      "problem_group": "Не получается найти раздел или начатое задание"
     },
     {
       "id": "R02",
@@ -24,7 +25,8 @@
       "outcome": "результат не подтверждён",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R02"
+      "quote_location": "open-research.md — история № 2",
+      "problem_group": "Не получается найти раздел или начатое задание"
     },
     {
       "id": "R03",
@@ -36,7 +38,8 @@
       "outcome": "решено по словам автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R03"
+      "quote_location": "open-research.md — история № 3",
+      "problem_group": "Не получается активировать задание"
     },
     {
       "id": "R04",
@@ -48,7 +51,8 @@
       "outcome": "разъяснено поддержкой по словам автора",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R04"
+      "quote_location": "open-research.md — история № 4",
+      "problem_group": "Непонятны условия выполнения и зачёта покупок"
     },
     {
       "id": "R05",
@@ -60,7 +64,8 @@
       "outcome": "обращение зарегистрировано, результат неизвестен",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R05"
+      "quote_location": "open-research.md — история № 5",
+      "problem_group": "Непонятны условия выполнения и зачёта покупок"
     },
     {
       "id": "R06",
@@ -72,7 +77,8 @@
       "outcome": "банк объясняет невыполнение условий; автор оспаривает",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R06"
+      "quote_location": "open-research.md — история № 6",
+      "problem_group": "Непонятны условия выполнения и зачёта покупок"
     },
     {
       "id": "R07",
@@ -84,7 +90,8 @@
       "outcome": "условие разъяснено, завершение задания не подтверждено",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R07"
+      "quote_location": "open-research.md — история № 7",
+      "problem_group": "Непонятны условия выполнения и зачёта покупок"
     },
     {
       "id": "R08",
@@ -96,7 +103,8 @@
       "outcome": "отказ банка, расхождение в подсчёте не объяснено полностью",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R08"
+      "quote_location": "open-research.md — история № 8",
+      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
     },
     {
       "id": "R09",
@@ -108,7 +116,8 @@
       "outcome": "доначисление подтверждено автором 10.06.2025",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R09"
+      "quote_location": "open-research.md — история № 9",
+      "problem_group": "Непонятно, как и когда использовать награду"
     },
     {
       "id": "R10",
@@ -120,7 +129,8 @@
       "outcome": "результат проверки в доступном ответе отсутствует",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R10"
+      "quote_location": "open-research.md — история № 10",
+      "problem_group": "Непонятно, как и когда использовать награду"
     },
     {
       "id": "R11",
@@ -132,7 +142,8 @@
       "outcome": "решено по словам автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R11"
+      "quote_location": "open-research.md — история № 11",
+      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
     },
     {
       "id": "R12",
@@ -144,7 +155,8 @@
       "outcome": "решение подтверждено автором 17.12.2025",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R12"
+      "quote_location": "open-research.md — история № 12",
+      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
     },
     {
       "id": "R13",
@@ -156,7 +168,8 @@
       "outcome": "решено по словам автора; консультация 25.04.2026",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R13"
+      "quote_location": "open-research.md — история № 13",
+      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
     },
     {
       "id": "R14",
@@ -168,7 +181,8 @@
       "outcome": "решено по словам автора 13.03.2026",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R14"
+      "quote_location": "open-research.md — история № 14",
+      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
     },
     {
       "id": "R15",
@@ -180,7 +194,8 @@
       "outcome": "разъяснено поддержкой по словам автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R15"
+      "quote_location": "open-research.md — история № 15",
+      "problem_group": "Есть опасение списания денег или кешбэка"
     },
     {
       "id": "R16",
@@ -192,7 +207,8 @@
       "outcome": "срок разъяснён; получение приза не подтверждено",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R16"
+      "quote_location": "open-research.md — история № 16",
+      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
     },
     {
       "id": "R17",
@@ -204,7 +220,8 @@
       "outcome": "решено по словам автора",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R17"
+      "quote_location": "open-research.md — история № 17",
+      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
     },
     {
       "id": "R18",
@@ -216,7 +233,8 @@
       "outcome": "срок разъяснён; получение очков не подтверждено",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R18"
+      "quote_location": "open-research.md — история № 18",
+      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
     },
     {
       "id": "R19",
@@ -228,7 +246,8 @@
       "outcome": "разъяснение участника форума",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R19"
+      "quote_location": "open-research.md — история № 19",
+      "problem_group": "Есть опасение списания денег или кешбэка"
     },
     {
       "id": "R20",
@@ -240,7 +259,8 @@
       "outcome": "отказ от повторного участия со слов автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R20"
+      "quote_location": "open-research.md — история № 20",
+      "problem_group": "Не устраивает результат платного участия"
     },
     {
       "id": "R21",
@@ -252,8 +272,8 @@
       "outcome": "повторное уточнение, понимание условий не подтверждено",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — строка R21"
+      "quote_location": "open-research.md — история № 21",
+      "problem_group": "Непонятно, как и когда использовать награду"
     }
   ]
 }
-
