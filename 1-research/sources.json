@@ -13,7 +13,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 1",
-      "problem_group": "Не получается найти раздел или начатое задание"
+      "row_number": 1
     },
     {
       "id": "R02",
@@ -26,7 +26,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 2",
-      "problem_group": "Не получается найти раздел или начатое задание"
+      "row_number": 2
     },
     {
       "id": "R03",
@@ -39,7 +39,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 3",
-      "problem_group": "Не получается активировать задание"
+      "row_number": 3
     },
     {
       "id": "R04",
@@ -52,7 +52,7 @@
       "access": "page",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 4",
-      "problem_group": "Непонятны условия выполнения и зачёта покупок"
+      "row_number": 4
     },
     {
       "id": "R05",
@@ -65,7 +65,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 5",
-      "problem_group": "Непонятны условия выполнения и зачёта покупок"
+      "row_number": 5
     },
     {
       "id": "R06",
@@ -78,7 +78,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 6",
-      "problem_group": "Непонятны условия выполнения и зачёта покупок"
+      "row_number": 6
     },
     {
       "id": "R07",
@@ -91,7 +91,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 7",
-      "problem_group": "Непонятны условия выполнения и зачёта покупок"
+      "row_number": 7
     },
     {
       "id": "R08",
@@ -104,7 +104,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 8",
-      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
+      "row_number": 8
     },
     {
       "id": "R09",
@@ -117,7 +117,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 9",
-      "problem_group": "Непонятно, как и когда использовать награду"
+      "row_number": 9
     },
     {
       "id": "R10",
@@ -130,20 +130,7 @@
       "access": "search_full_text",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 10",
-      "problem_group": "Непонятно, как и когда использовать награду"
-    },
-    {
-      "id": "R11",
-      "url": "https://www.banki.ru/services/responses/bank/response/11963751/",
-      "title": "Задания и награды",
-      "author": "user-195916144428",
-      "published": "03.12.2024",
-      "type": "отзыв",
-      "outcome": "решено по словам автора",
-      "access": "search_full_text",
-      "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 11",
-      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
+      "row_number": 10
     },
     {
       "id": "R12",
@@ -155,8 +142,8 @@
       "outcome": "решение подтверждено автором 17.12.2025",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 12",
-      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
+      "quote_location": "open-research.md — история № 11",
+      "row_number": 11
     },
     {
       "id": "R13",
@@ -168,8 +155,8 @@
       "outcome": "решено по словам автора; консультация 25.04.2026",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 13",
-      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
+      "quote_location": "open-research.md — история № 12",
+      "row_number": 12
     },
     {
       "id": "R14",
@@ -181,8 +168,8 @@
       "outcome": "решено по словам автора 13.03.2026",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 14",
-      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
+      "quote_location": "open-research.md — история № 13",
+      "row_number": 13
     },
     {
       "id": "R15",
@@ -194,8 +181,8 @@
       "outcome": "разъяснено поддержкой по словам автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 15",
-      "problem_group": "Есть опасение списания денег или кешбэка"
+      "quote_location": "open-research.md — история № 14",
+      "row_number": 14
     },
     {
       "id": "R16",
@@ -207,8 +194,8 @@
       "outcome": "срок разъяснён; получение приза не подтверждено",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 16",
-      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
+      "quote_location": "open-research.md — история № 15",
+      "row_number": 15
     },
     {
       "id": "R17",
@@ -220,8 +207,8 @@
       "outcome": "решено по словам автора",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 17",
-      "problem_group": "Нет ожидаемого прогресса или награды после выполнения"
+      "quote_location": "open-research.md — история № 16",
+      "row_number": 16
     },
     {
       "id": "R18",
@@ -233,8 +220,8 @@
       "outcome": "срок разъяснён; получение очков не подтверждено",
       "access": "page",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 18",
-      "problem_group": "Непонятен срок обновления прогресса или выдачи приза"
+      "quote_location": "open-research.md — история № 17",
+      "row_number": 17
     },
     {
       "id": "R19",
@@ -246,8 +233,8 @@
       "outcome": "разъяснение участника форума",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 19",
-      "problem_group": "Есть опасение списания денег или кешбэка"
+      "quote_location": "open-research.md — история № 18",
+      "row_number": 18
     },
     {
       "id": "R20",
@@ -259,8 +246,8 @@
       "outcome": "отказ от повторного участия со слов автора",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 20",
-      "problem_group": "Не устраивает результат платного участия"
+      "quote_location": "open-research.md — история № 19",
+      "row_number": 19
     },
     {
       "id": "R21",
@@ -272,8 +259,290 @@
       "outcome": "повторное уточнение, понимание условий не подтверждено",
       "access": "search_full_text",
       "accessed": "2026-11-09",
-      "quote_location": "open-research.md — история № 21",
-      "problem_group": "Непонятно, как и когда использовать награду"
+      "quote_location": "open-research.md — история № 20",
+      "row_number": 20
+    },
+    {
+      "id": "R22",
+      "published": "06.03.2026",
+      "url": "https://www.banki.ru/services/responses/bank/response/12973982/",
+      "author": "user-468524533403",
+      "title": "Помощь по программе лояльности",
+      "type": "отзыв",
+      "outcome": "место применения разъяснено поддержкой; использование награды не подтверждено",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 21,
+      "quote_location": "open-research.md — история № 21"
+    },
+    {
+      "id": "R23",
+      "published": "04.11.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12694810/",
+      "author": "ger55",
+      "title": "Спасибо Никите за консультацию по правилу индивидуальной акции в разделе \"Задания и награды\"",
+      "type": "отзыв",
+      "outcome": "правила разъяснены; платёж совершён, награда ещё ожидалась",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 22,
+      "quote_location": "open-research.md — история № 22"
+    },
+    {
+      "id": "R24",
+      "published": "03.09.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12526683/",
+      "author": "user-783316789974",
+      "title": "Спасибо за информацию",
+      "type": "отзыв",
+      "outcome": "по словам автора, задание зачтено и повышенный кешбэк отобразился",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 23,
+      "quote_location": "open-research.md — история № 23"
+    },
+    {
+      "id": "R25",
+      "published": "26.02.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12164029/",
+      "author": "user-374918697140",
+      "title": "Кешбек за фастфуд в награде",
+      "type": "отзыв",
+      "outcome": "получена консультация; точный барьер и факт начисления не раскрыты",
+      "access": "page",
+      "accessed": "2026-11-10",
+      "row_number": 24,
+      "quote_location": "open-research.md — история № 24"
+    },
+    {
+      "id": "R26",
+      "published": "09.10.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12616338/",
+      "author": "user-738122530299",
+      "title": "Привлекательный кэшбэк",
+      "type": "отзыв",
+      "outcome": "по словам автора, поддержка открыла подходящий счёт; награда не подтверждена",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 25,
+      "quote_location": "open-research.md — история № 25"
+    },
+    {
+      "id": "R27",
+      "published": "09.09.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12538175/",
+      "author": "user-197121442473",
+      "title": "Помогли решить проблему в игре \" 100 секунд \"",
+      "type": "отзыв",
+      "outcome": "зачёт подтверждён автором после повторных обращений",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 26,
+      "quote_location": "open-research.md — история № 26"
+    },
+    {
+      "id": "R28",
+      "published": "16.08.2026",
+      "url": "https://www.banki.ru/services/responses/bank/response/13301673/",
+      "author": "user-708115604997",
+      "title": "игра ловки на уловки",
+      "type": "отзыв с комментарием 18.08.2026",
+      "outcome": "поступление средств подтверждено автором, дата выплаты не указана",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 27,
+      "quote_location": "open-research.md — история № 27"
+    },
+    {
+      "id": "R29",
+      "published": "09.08.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12475602/",
+      "author": "user-423321674736",
+      "title": "Помощь с игрой \"Улëт полет\"",
+      "type": "отзыв с комментарием 21.08.2025",
+      "outcome": "положительное разрешение со слов автора, конкретный результат не раскрыт",
+      "access": "page",
+      "accessed": "2026-11-10",
+      "row_number": 28,
+      "quote_location": "open-research.md — история № 28"
+    },
+    {
+      "id": "R30",
+      "published": "21.10.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12649372/",
+      "author": "user-684522659202",
+      "title": "Решение проблемы с игрой \"100 секунд\"",
+      "type": "отзыв",
+      "outcome": "начисление в игре подтверждено автором",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 29,
+      "quote_location": "open-research.md — история № 29"
+    },
+    {
+      "id": "R31",
+      "published": "27.08.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12512521/",
+      "author": "user-248622643892",
+      "title": "Помогли в \"Игра в ассоциации\"",
+      "type": "отзыв",
+      "outcome": "автор сообщает о решении без подробностей; на уточнение модератора не ответил",
+      "access": "page",
+      "accessed": "2026-11-10",
+      "row_number": 30,
+      "quote_location": "open-research.md — история № 30"
+    },
+    {
+      "id": "R32",
+      "published": "30.09.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12591944/",
+      "author": "user-655917876212",
+      "title": "Игра Ассоциации",
+      "type": "отзыв",
+      "outcome": "автор сообщает об ответе с решением; конкретное начисление не раскрыто",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 31,
+      "quote_location": "open-research.md — история № 31"
+    },
+    {
+      "id": "R33",
+      "published": "12.11.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12720884/",
+      "author": "user-197121442473",
+      "title": "Помощь в игре \"Домашний детектив\"",
+      "type": "отзыв",
+      "outcome": "по словам автора, игра пройдена и участие в розыгрыше доступно",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 32,
+      "quote_location": "open-research.md — история № 32"
+    },
+    {
+      "id": "R34",
+      "published": "23.10.2025",
+      "url": "https://www-1.banki.ru/services/questions-answers/question/885384/",
+      "author": "rusborder",
+      "title": "Игра Это мошенники? Альфа-банка сама по себе мошенничество",
+      "type": "вопрос банку",
+      "outcome": "позиции автора и поддержки расходятся, причина отсутствия заданий не установлена",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 33,
+      "quote_location": "open-research.md — история № 33"
+    },
+    {
+      "id": "R35",
+      "published": "10.09.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12540530/",
+      "author": "user-985218155839",
+      "title": "Компенсация",
+      "type": "отзыв",
+      "outcome": "исходное задание не зачтено; компенсация после покупки подтверждена автором",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 34,
+      "quote_location": "open-research.md — история № 34"
+    },
+    {
+      "id": "R36",
+      "published": "20.08.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12495848/",
+      "author": "user-616419855665",
+      "title": "Кэшбэк за покупки",
+      "type": "отзыв",
+      "outcome": "выбор категории и доначисление подтверждены автором",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 35,
+      "quote_location": "open-research.md — история № 35"
+    },
+    {
+      "id": "R37",
+      "published": "25.11.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12754386/",
+      "author": "user-641119973644",
+      "title": "Были вопросы по награды за задание",
+      "type": "отзыв",
+      "outcome": "категория найдена с помощью поддержки; пересчёт не подтверждён",
+      "access": "page",
+      "accessed": "2026-11-10",
+      "row_number": 36,
+      "quote_location": "open-research.md — история № 36"
+    },
+    {
+      "id": "R38",
+      "published": "07.10.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12610207/",
+      "author": "user-122415784784",
+      "title": "За приз нужно побороться!",
+      "type": "отзыв",
+      "outcome": "факт выплаты в доступном тексте не подтверждён",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 37,
+      "quote_location": "open-research.md — история № 37"
+    },
+    {
+      "id": "R39",
+      "published": "11.12.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12809550/",
+      "author": "user-891122756820",
+      "title": "Приняли неожиданное решение по жалобе на игру",
+      "type": "отзыв",
+      "outcome": "компенсация подтверждена автором; исправление игры не подтверждено",
+      "access": "page",
+      "accessed": "2026-11-10",
+      "row_number": 38,
+      "quote_location": "open-research.md — история № 38"
+    },
+    {
+      "id": "R40",
+      "published": "06.11.2025",
+      "url": "https://www.banki.ru/services/responses/bank/response/12706755/",
+      "author": "user-330022928888",
+      "title": "Плачевные игры в приложении",
+      "type": "отзыв и ответ банка",
+      "outcome": "банк сообщил о выплате 13.11.2025; подтверждение автора отсутствует",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 39,
+      "quote_location": "open-research.md — история № 39"
+    },
+    {
+      "id": "R41",
+      "published": "12.11.2025",
+      "url": "https://www-1.banki.ru/services/questions-answers/question/894161/",
+      "author": "Veretennikova21",
+      "title": "Альфа банк и отсутствие прозрачности",
+      "type": "вопрос банку",
+      "outcome": "банк обещает проверить; содержательного результата в источнике нет",
+      "access": "search_full_text",
+      "accessed": "2026-11-10",
+      "row_number": 40,
+      "quote_location": "open-research.md — история № 40"
+    }
+  ],
+  "updated_at": "2026-11-10",
+  "publication_window": {
+    "from": "2025-01-01",
+    "through": "2026-11-10"
+  },
+  "grouping": null,
+  "excluded_items": [
+    {
+      "id": "R11",
+      "url": "https://www.banki.ru/services/responses/bank/response/11963751/",
+      "title": "Задания и награды",
+      "author": "user-195916144428",
+      "published": "03.12.2024",
+      "type": "отзыв",
+      "outcome": "решено по словам автора",
+      "access": "search_full_text",
+      "accessed": "2026-11-09",
+      "quote_location": "open-research.md — история № 11",
+      "reason": "За пределами согласованного диапазона 2025–2026 годов",
+      "removed_at": "2026-11-10"
     }
   ]
 }
