@@ -20,6 +20,10 @@
 
 [Пути к разделу «Задания и награды» — текст для кейса и увеличенный фрагмент схемы](3-content/screen-flow.md).
 
+## Итоги юзабилити-теста
+
+[Выводы и рассуждения по итогам теста](3-content/ux-test-results.md) · [Таблица ответов участников](https://docs.google.com/spreadsheets/d/1_kb33NWPpdOcFdAtIQsjNHxeRmmaByIXZLLBV3dFkw4/edit).
+
 ## Материалы
 
 - `1-research/` — исследование и источники.
