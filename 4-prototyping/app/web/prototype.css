@@ -1,0 +1,31 @@
+/* Original archived styles remain authoritative. Only local preview adjustments. */
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; }
+[data-route]:focus-visible { outline:2px solid #ef3124; outline-offset:3px; }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important;transition-duration:.01ms!important; } }
+/* The archived dashboard had its draggable sheet expanded. Start below products. */
+body[data-screen="home"] .qFbig { transform:none!important; }
+body[data-screen="home"] .D20jK { margin-top:420px; height:calc(100dvh - 480px); min-height:180px; }
+body[data-screen="home"] .qFbig { width:100%; }
+/* Saved Swiper tracks need native horizontal scrolling without the bank runtime. */
+.swiper { overflow-x:auto!important; scrollbar-width:none; }
+.swiper-wrapper { transform:none!important; }
+.swiper::-webkit-scrollbar { display:none; }
+body[data-screen="home"] .WrpN0 { opacity:1!important; }
+body[data-screen="home"] .EV7PD { top:440px!important; height:calc(100dvh - 440px)!important; pointer-events:none; }
+body[data-screen="home"] .RGWna { top:440px!important; bottom:60px!important; height:auto!important; transform:none!important; pointer-events:auto; }
+body[data-screen="home"] .wzVlA { height:100%!important; }
+body[data-screen="home"] .D20jK { margin-top:0; height:100%!important; min-height:0; }
+body[data-screen="home"] .EV7PD { top:var(--prototype-sheet-top,440px)!important; height:calc(100dvh - var(--prototype-sheet-top,440px))!important; }
+body[data-screen="home"] .RGWna { top:var(--prototype-sheet-top,440px)!important; transition:top 350ms cubic-bezier(.21,1.29,.25,1.01); }
+body[data-screen="home"].sheet-dragging .RGWna { transition:none; }
+body[data-screen="home"] .wzVlA > .ohvjj { cursor:grab; min-height:24px; touch-action:none; }
+body[data-screen="home"] .wzVlA > .ohvjj:active { cursor:grabbing; }
+@media(prefers-reduced-motion:reduce) { body[data-screen="home"] .RGWna {transition:none!important;} }
+.swiper { cursor:grab; touch-action:pan-x pan-y; -webkit-overflow-scrolling:touch; }
+.swiper.carousel-dragging { cursor:grabbing; scroll-behavior:auto!important; user-select:none; -webkit-user-select:none; }
+.swiper img { -webkit-user-drag:none; }
+.swiper:focus-visible {outline:2px solid #ef3124;outline-offset:-2px;}
+
+.prototype-carousel {cursor:grab;touch-action:pan-x pan-y;}
+.prototype-carousel.carousel-dragging {cursor:grabbing;scroll-behavior:auto!important;user-select:none;-webkit-user-select:none;}
