@@ -135,6 +135,6 @@ for (const a of document.querySelectorAll('nav a[data-test-id]')) {
   for(const shape of a.querySelectorAll('svg path[fill],svg circle[fill]')) {
     if(shape.closest('defs,mask,clipPath'))continue;
     const fill=shape.getAttribute('fill').replace(/\s/g,'');
-    if(['rgb(144,144,149)','rgb(3,3,6)','rgb(0,0,0)','rgb(31,31,34)','black','#000','#000000'].includes(fill))shape.setAttribute('fill',color);
+    if(!['none','transparent','rgb(255,255,255)','#fff','#ffffff','white'].includes(fill) && !fill.startsWith('url('))shape.setAttribute('fill',color);
   }
 }
