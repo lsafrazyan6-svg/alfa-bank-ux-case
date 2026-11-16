@@ -1,0 +1,21 @@
+{
+  "$schema_note": "Реестр связи Figma <-> дизайн-система. Источник правды — Figma; этот файл её отражает. Владелец: design-system-agent. См. схему в 2-design-system/CLAUDE.md.",
+  "project": {
+    "fileKey": "TBD",
+    "fileUrl": "TBD",
+    "teamId": "TBD",
+    "name": "TBD"
+  },
+  "components": [
+    {
+      "name": "PLACEHOLDER — удалить после первой реальной регистрации",
+      "figmaNodeId": "TBD",
+      "page": "TBD",
+      "frame": "TBD",
+      "purpose": "TBD",
+      "description": "TBD",
+      "reactStatus": "not-implemented",
+      "lastSynced": null
+    }
+  ]
+}

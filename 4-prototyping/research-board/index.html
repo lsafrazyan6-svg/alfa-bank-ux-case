@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Доска отзывов · Альфа-Банк</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="identity"><span class="mark" aria-hidden="true">а</span><span>Альфа-Банк <span class="muted">/ Учебный UX-кейс</span></span></div>
+    <span class="save-state" id="saveState" role="status">Загружаю доску…</span>
+    <div class="top-actions"><button id="undo" class="button quiet" disabled>Отменить</button><button id="export" class="button quiet">Скачать доску</button><button id="import" class="button quiet">Загрузить</button><input id="importFile" type="file" accept="application/json,.json" hidden></div>
+  </header>
+  <main>
+    <section class="board-heading">
+      <div><h1>Разложим отзывы по группам</h1><p>Перетаскивай карточки между колонками. Группы и их названия — твои.</p></div>
+      <button id="addGroup" class="button primary"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12"/></svg>Новая группа</button>
+    </section>
+    <section class="controls" aria-label="Поиск и отображение">
+      <label class="search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" type="search" placeholder="Найти в отзывах" aria-label="Поиск по отзывам"></label>
+      <span id="progress" class="progress">40 отзывов</span>
+      <div class="control-right"><label class="check"><input id="compact" type="checkbox">Компактно</label><span class="period">2025–2026</span></div>
+    </section>
+    <div id="error" class="error" role="alert" hidden></div>
+    <div id="board" class="board" aria-label="Доска отзывов"><div class="loading">Загружаю 40 карточек…</div></div>
+    <footer class="footbar"><span>Цитаты сохранены дословно. Открой контекст, чтобы прочитать всю историю.</span><span>Раскладка сохраняется на этом компьютере</span></footer>
+  </main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

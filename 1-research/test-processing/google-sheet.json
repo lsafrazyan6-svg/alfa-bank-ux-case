@@ -1,0 +1,28 @@
+{
+  "spreadsheet_id": "1_kb33NWPpdOcFdAtIQsjNHxeRmmaByIXZLLBV3dFkw4",
+  "url": "https://docs.google.com/spreadsheets/d/1_kb33NWPpdOcFdAtIQsjNHxeRmmaByIXZLLBV3dFkw4/edit",
+  "sheet_id": 384610118,
+  "sheet_name": "Ответы участников",
+  "state": "Все полученные ответы по 5 участникам внесены, уточнения по Артёму и Арману завершены. Результат основан на Type и кадрах видео; сверка речи на слух не выполнена и недоступна в этой среде. Незафиксированные сведения не домыслены.",
+  "verification": "Все 28 строк и 6 столбцов после импорта сравнены с локальной матрицей.",
+  "formatting": {
+    "font_size": 14,
+    "column_widths_px": [
+      500,
+      560,
+      560,
+      560,
+      560,
+      560
+    ],
+    "cell_padding_px": {
+      "top": 8,
+      "bottom": 8,
+      "left": 10,
+      "right": 10
+    },
+    "wrap": "WRAP",
+    "vertical_alignment": "MIDDLE",
+    "row_heights": "Рассчитаны по актуальным 25 строкам и переносу текста; 82 px минимум для строк с ответами."
+  }
+}

@@ -1,0 +1,13 @@
+[WARNING] Deferred submodel version "llm.giga600m.v1.019" is not readable yet: Cannot open archive /Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar: Failed to open '/Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar'
+[WARNING] Deferred submodel version "llm.giga600m.v1.019" is not readable yet: Cannot open archive /Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar: Failed to open '/Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar'
+[WARNING] Deferred submodel version "llm.giga600m.v1.019" is not readable yet: Cannot open archive /Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar: Failed to open '/Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar'
+[WARNING] Deferred submodel version "llm.giga600m.v1.019" is not readable yet: Cannot open archive /Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar: Failed to open '/Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype/giga600m_v1.019/model.tar'
+[gigatype] runtime ready, model_root=/Users/lidiasafrazyan/Library/Application Support/Type/model-cache/gigatype, features=1
+2 notice
+2 mcc
+2 activation
+2 banner
+3 notice
+3 mcc-and-start
+3 card
+1 reward-location

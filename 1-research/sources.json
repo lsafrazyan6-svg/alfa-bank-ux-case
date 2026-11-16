@@ -208,7 +208,10 @@
       "access": "page",
       "accessed": "2026-11-09",
       "quote_location": "open-research.md — история № 16",
-      "row_number": 16
+      "row_number": 16,
+      "scope_excluded": true,
+      "scope_exclusion_reason": "Игра «100 секунд», не раздел «Задания и награды»; прямое решение владелицы",
+      "scope_excluded_at": "2026-11-10"
     },
     {
       "id": "R18",
@@ -338,7 +341,10 @@
       "access": "search_full_text",
       "accessed": "2026-11-10",
       "row_number": 26,
-      "quote_location": "open-research.md — история № 26"
+      "quote_location": "open-research.md — история № 26",
+      "scope_excluded": true,
+      "scope_exclusion_reason": "Игра «100 секунд», не раздел «Задания и награды»; прямое решение владелицы",
+      "scope_excluded_at": "2026-11-10"
     },
     {
       "id": "R28",
@@ -377,7 +383,10 @@
       "access": "search_full_text",
       "accessed": "2026-11-10",
       "row_number": 29,
-      "quote_location": "open-research.md — история № 29"
+      "quote_location": "open-research.md — история № 29",
+      "scope_excluded": true,
+      "scope_exclusion_reason": "Игра «100 секунд», не раздел «Задания и награды»; прямое решение владелицы",
+      "scope_excluded_at": "2026-11-10"
     },
     {
       "id": "R31",
@@ -481,7 +490,10 @@
       "access": "search_full_text",
       "accessed": "2026-11-10",
       "row_number": 37,
-      "quote_location": "open-research.md — история № 37"
+      "quote_location": "open-research.md — история № 37",
+      "scope_excluded": true,
+      "scope_exclusion_reason": "Игра «100 секунд», не раздел «Задания и награды»; прямое решение владелицы",
+      "scope_excluded_at": "2026-11-10"
     },
     {
       "id": "R39",
@@ -494,7 +506,10 @@
       "access": "page",
       "accessed": "2026-11-10",
       "row_number": 38,
-      "quote_location": "open-research.md — история № 38"
+      "quote_location": "open-research.md — история № 38",
+      "scope_excluded": true,
+      "scope_exclusion_reason": "Игра «100 секунд», не раздел «Задания и награды»; прямое решение владелицы",
+      "scope_excluded_at": "2026-11-10"
     },
     {
       "id": "R40",
@@ -521,6 +536,48 @@
       "accessed": "2026-11-10",
       "row_number": 40,
       "quote_location": "open-research.md — история № 40"
+    },
+    {
+      "id": "R42",
+      "row_number": 41,
+      "url": "https://hranidengi.com/threads/alfa-bank-alfa-karta.51/page-352#post-658253",
+      "title": "Поиск заданий: сообщения № 7 035–7 038",
+      "author": "Чики-Чирики",
+      "published": "16.01.2026",
+      "type": "форум",
+      "outcome": "после подсказки нашла раздел; доступные предложения не заинтересовали",
+      "access": "page_full_text",
+      "accessed": "2026-11-10",
+      "quote_location": "open-research.md — история № 41",
+      "related_posts": [
+        "https://hranidengi.com/threads/alfa-bank-alfa-karta.51/page-352#post-658266"
+      ]
+    },
+    {
+      "id": "R43",
+      "row_number": 42,
+      "url": "https://hranidengi.com/threads/alfa-bank-alfa-karta.51/page-232#post-469214",
+      "title": "Поиск заданий, сообщения № 4 634–4 635",
+      "author": "Взбесившийся калькулятор",
+      "published": "28.05.2025",
+      "type": "форум",
+      "outcome": "участница получила инструкцию; результат поиска не подтверждён",
+      "access": "page_full_text",
+      "accessed": "2026-11-10",
+      "quote_location": "open-research.md — история № 42"
+    },
+    {
+      "id": "R44",
+      "row_number": 43,
+      "url": "https://hranidengi.com/threads/alfa-bank-alfa-karta.51/page-254#post-498210",
+      "title": "Поиск заданий, сообщения № 5 072, 5 075–5 076",
+      "author": "CEHO",
+      "published": "02.07.2025",
+      "type": "форум",
+      "outcome": "инструкция оказалась для приложения; автор пользуется веб-версией, результат не подтверждён",
+      "access": "page_full_text",
+      "accessed": "2026-11-10",
+      "quote_location": "open-research.md — история № 43"
     }
   ],
   "updated_at": "2026-11-10",
