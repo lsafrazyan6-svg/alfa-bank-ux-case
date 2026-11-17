@@ -3,23 +3,30 @@ html { -webkit-text-size-adjust:100%; }
 body { margin:0; }
 [data-route]:focus-visible { outline:2px solid #ef3124; outline-offset:3px; }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms!important;transition-duration:.01ms!important; } }
-/* The archived dashboard had its draggable sheet expanded. Start below products. */
-body[data-screen="home"] .qFbig { transform:none!important; }
-body[data-screen="home"] .D20jK { margin-top:420px; height:calc(100dvh - 480px); min-height:180px; }
-body[data-screen="home"] .qFbig { width:100%; }
+/* Keep products at their original size behind the movable offers sheet. */
+body[data-screen="home"] .qFbig { transform:none!important; width:100%; }
 /* Saved Swiper tracks need native horizontal scrolling without the bank runtime. */
 .swiper { overflow-x:auto!important; scrollbar-width:none; }
-.swiper-wrapper { transform:none!important; }
+.swiper:not(.prototype-swiper) > .swiper-wrapper { transform:none!important; }
 .swiper::-webkit-scrollbar { display:none; }
 body[data-screen="home"] .WrpN0 { opacity:1!important; }
-body[data-screen="home"] .EV7PD { top:440px!important; height:calc(100dvh - 440px)!important; pointer-events:none; }
-body[data-screen="home"] .RGWna { top:440px!important; bottom:60px!important; height:auto!important; transform:none!important; pointer-events:auto; }
-body[data-screen="home"] .wzVlA { height:100%!important; }
-body[data-screen="home"] .D20jK { margin-top:0; height:100%!important; min-height:0; }
-body[data-screen="home"] .EV7PD { top:var(--prototype-sheet-top,440px)!important; height:calc(100dvh - var(--prototype-sheet-top,440px))!important; }
-body[data-screen="home"] .RGWna { top:var(--prototype-sheet-top,440px)!important; transition:top 350ms cubic-bezier(.21,1.29,.25,1.01); }
+/* Every sheet wrapper fills the available space; only its content scrolls. */
+body[data-screen="home"] .EV7PD { top:0!important; height:100dvh!important; overflow:hidden; pointer-events:none; }
+body[data-screen="home"] .RGWna {
+  top:var(--prototype-sheet-top,476px)!important;
+  bottom:64px!important;
+  height:auto!important;
+  transform:none!important;
+  pointer-events:auto;
+  touch-action:auto;
+  transition:top 1s cubic-bezier(.21,1.29,.25,1.01);
+}
+body[data-screen="home"] .RGWna .rvMcU,
+body[data-screen="home"] .RGWna .cK65V { height:100%; min-height:0; touch-action:auto; }
+body[data-screen="home"] .wzVlA { height:100%!important; max-height:none!important; min-height:0; }
+body[data-screen="home"] .D20jK { flex:1; margin-top:0; height:auto!important; min-height:0; }
 body[data-screen="home"].sheet-dragging .RGWna { transition:none; }
-body[data-screen="home"] .wzVlA > .ohvjj { cursor:grab; min-height:24px; touch-action:none; }
+body[data-screen="home"] .wzVlA > .ohvjj { flex-shrink:0; cursor:grab; min-height:24px; touch-action:none; }
 body[data-screen="home"] .wzVlA > .ohvjj:active { cursor:grabbing; }
 @media(prefers-reduced-motion:reduce) { body[data-screen="home"] .RGWna {transition:none!important;} }
 .swiper { cursor:grab; touch-action:pan-x pan-y; -webkit-overflow-scrolling:touch; }
@@ -44,3 +51,13 @@ body[data-screen="benefits"] .R0SUO.Osj0W {
   max-width:600px;
   margin-inline:auto;
 }
+
+/* Bank Swiper used JS dragging and pan-y; our offline carousels scroll natively. */
+.swiper.swiper-horizontal,
+.prototype-carousel { touch-action:pan-x pan-y!important; }
+/* The archived balance tooltip left a transparent 1000px hit area outside the card. */
+[data-test-id="balance-carousel"] .Nyzf5 { display:none; }
+
+/* Swiper owns transforms and pointer gestures; native rows retain regular scrolling. */
+.swiper.prototype-swiper { overflow:hidden!important; touch-action:pan-y!important; }
+.swiper.prototype-swiper > .swiper-wrapper { will-change:transform; }

@@ -51,7 +51,8 @@ if (screen === 'home') {
   const handle=document.querySelector('.wzVlA > .ohvjj');
   const header=document.querySelector('[data-test-id="main-page-bottom-sheet-container-header"]');
   const scroller=document.querySelector('.D20jK');
-  const collapsed=()=>Math.min(440,innerHeight-240);
+  const products=document.querySelector('[data-test-id="products-view-main-wrapper"]');
+  const collapsed=()=>Math.min(Math.max(440,(products?.getBoundingClientRect().bottom ?? 452)+24),innerHeight-240);
   let expanded=false, startY=0, startTop=0, dragged=false;
   const setTop=(top,animate=true)=>{
     document.body.style.setProperty('--prototype-sheet-top',`${top}px`);
@@ -71,12 +72,47 @@ if (screen === 'home') {
     target.addEventListener('pointercancel',()=>settle(expanded));
   }
   if(handle){handle.setAttribute('role','button');handle.setAttribute('aria-label','Развернуть или свернуть главную');handle.tabIndex=0;handle.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();settle(!expanded)}});}
-  if(scroller)scroller.addEventListener('wheel',e=>{if(!expanded&&e.deltaY>10){e.preventDefault();settle(true)}},{passive:false});
+  if(scroller) {
+    scroller.addEventListener('wheel',e=>{
+      if(!expanded&&e.deltaY>10){e.preventDefault();settle(true)}
+      else if(expanded&&scroller.scrollTop===0&&e.deltaY < -10){e.preventDefault();settle(false)}
+    },{passive:false});
+    let touchStartY=null, touchStartX=0, touchAtTop=false, touchSettled=false;
+    scroller.addEventListener('touchstart',e=>{
+      if(e.touches.length!==1||e.target.closest('[data-test-id="main-page-bottom-sheet-container-header"]'))return;
+      touchStartY=e.touches[0].clientY;touchStartX=e.touches[0].clientX;touchAtTop=scroller.scrollTop===0;touchSettled=false;
+    },{passive:true});
+    scroller.addEventListener('touchmove',e=>{
+      if(touchStartY===null||touchSettled||e.touches.length!==1)return;
+      const delta=e.touches[0].clientY-touchStartY;
+      if(Math.abs(delta)<=Math.abs(e.touches[0].clientX-touchStartX))return;
+      if((!expanded&&delta < -24)||(expanded&&touchAtTop&&delta > 48)) {
+        if(e.cancelable)e.preventDefault();
+        touchSettled=true;settle(!expanded);
+      }
+    },{passive:false});
+    for(const event of ['touchend','touchcancel'])scroller.addEventListener(event,()=>{touchStartY=null},{passive:true});
+  }
   window.addEventListener('resize',()=>settle(expanded));
   settle(false);
 }
-// Native touch scrolling + mouse grab scrolling for archived horizontal carousels.
 let suppressCarouselClickUntil = 0;
+// Reuse the isolated Swiper core from the supplied archive for original slide motion.
+// Plain overflow rows (section tabs / filters) continue to use native scrolling.
+for (const carousel of document.querySelectorAll('.swiper')) {
+  const track=carousel.querySelector(':scope > .swiper-wrapper');
+  if(!track||track.children.length<2)continue;
+  const gap=parseFloat(getComputedStyle(track.children[0]).marginRight)||0;
+  carousel.classList.add('prototype-swiper');
+  new ArchiveSwiper(carousel,{
+    slidesPerView:'auto',spaceBetween:gap,speed:300,threshold:5,touchAngle:45,
+    resistanceRatio:.85,watchOverflow:true,nested:true,touchStartPreventDefault:false,
+    on:{sliderMove(){suppressCarouselClickUntil=performance.now()+350}}
+  });
+}
+
+// Native touch scrolling + mouse grab scrolling for archived horizontal carousels.
+
 document.addEventListener('click', event => {
   if (performance.now() < suppressCarouselClickUntil && event.target.closest('.swiper,.prototype-carousel')) {
     event.preventDefault(); event.stopImmediatePropagation();
@@ -92,7 +128,7 @@ for (const carousel of document.querySelectorAll('.swiper,.prototype-carousel'))
   carousel.addEventListener('dragstart', e => e.preventDefault());
   let drag = null;
   carousel.addEventListener('pointerdown', event => {
-    if (event.pointerType === 'touch' || event.button !== 0) return;
+    if (carousel.swiper || event.pointerType === 'touch' || event.button !== 0) return;
     drag = { id:event.pointerId, x:event.clientX, y:event.clientY, left:carousel.scrollLeft, active:false };
   });
   carousel.addEventListener('pointermove', event => {
@@ -119,8 +155,19 @@ for (const carousel of document.querySelectorAll('.swiper,.prototype-carousel'))
   for (const name of ['pointerup','pointercancel','lostpointercapture']) carousel.addEventListener(name, finish);
   carousel.addEventListener('pointerleave', event => { if(drag && !drag.active) finish(event); });
   carousel.addEventListener('keydown', event => {
-    if (event.target!==carousel || !['ArrowLeft','ArrowRight'].includes(event.key)) return;
+    if (event.target!==carousel || !['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
     event.preventDefault();
+    if(carousel.swiper) {
+      if(event.key==='Home')carousel.swiper.slideTo(0,0);
+      else if(event.key==='End')carousel.swiper.slideTo(carousel.swiper.slides.length-1,0);
+      else if(event.key==='ArrowRight')carousel.swiper.slideNext();
+      else carousel.swiper.slidePrev();
+      return;
+    }
+    if(event.key==='Home'||event.key==='End') {
+      carousel.scrollTo({left:event.key==='Home'?0:carousel.scrollWidth-carousel.clientWidth,behavior:'instant'});
+      return;
+    }
     carousel.scrollBy({left:(event.key==='ArrowRight'?1:-1)*carousel.clientWidth*.7,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   });
 }
