@@ -29,3 +29,13 @@ body[data-screen="home"] .wzVlA > .ohvjj:active { cursor:grabbing; }
 
 .prototype-carousel {cursor:grab;touch-action:pan-x pan-y;}
 .prototype-carousel.carousel-dragging {cursor:grabbing;scroll-behavior:auto!important;user-select:none;-webkit-user-select:none;}
+/* Section rhythm after moving tasks below services; use the archived spacing scale. */
+body[data-screen="benefits"] [data-test-id="gamification-carousel-container"] {
+  margin-top:var(--newclick-marketplace-ui-gap-32);
+}
+/* Content already ends with a 32px spacer. Reserve only the fixed navbar height. */
+body[data-screen="benefits"] [data-test-id="fakeFooter"] {
+  padding-bottom:64px;
+}
+/* Horizontal carousels must not create a nested vertical scroll area. */
+.swiper { overflow-y:hidden!important; }
