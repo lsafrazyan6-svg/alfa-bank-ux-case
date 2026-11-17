@@ -185,3 +185,26 @@ for (const a of document.querySelectorAll('nav a[data-test-id]')) {
     if(!['none','transparent','rgb(255,255,255)','#fff','#ffffff','white'].includes(fill) && !fill.startsWith('url('))shape.setAttribute('fill',color);
   }
 }
+
+// Archived Alfa tabs: only panel state is implemented locally.
+if (screen === 'tasks') {
+  const tabs = [...document.querySelectorAll('.prototype-task-tabs [role="tab"]')];
+  const activate = (tab, focus = false) => {
+    for (const item of tabs) {
+      const active = item === tab;
+      item.setAttribute('aria-selected', String(active));
+      item.tabIndex = active ? 0 : -1;
+      for (const name of ['WXBTU', 'Mj_DG', 'FXWeJ']) item.classList.toggle(name, active);
+      document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
+    }
+    if (focus) tab.focus();
+  };
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => activate(tab));
+    tab.addEventListener('keydown', event => {
+      const next = { ArrowRight: (index + 1) % tabs.length, ArrowLeft: (index + tabs.length - 1) % tabs.length, Home: 0, End: tabs.length - 1 }[event.key];
+      if (next !== undefined) { event.preventDefault(); activate(tabs[next], true); }
+    });
+  });
+  document.querySelector('[data-tasks-return]').addEventListener('click', () => activate(tabs[0], true));
+}

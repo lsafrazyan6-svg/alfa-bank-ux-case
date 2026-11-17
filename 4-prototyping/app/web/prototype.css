@@ -61,3 +61,12 @@ body[data-screen="benefits"] .R0SUO.Osj0W {
 /* Swiper owns transforms and pointer gestures; native rows retain regular scrolling. */
 .swiper.prototype-swiper { overflow:hidden!important; touch-action:pan-y!important; }
 .swiper.prototype-swiper > .swiper-wrapper { will-change:transform; }
+
+/* Reuse archived Alfa Tag tabs, typography and Button. Only page layout is local. */
+.prototype-task-tabs { display:flex; gap:var(--newclick-marketplace-ui-gap-8); padding-block:var(--newclick-marketplace-ui-gap-16); }
+.prototype-task-tabs [role="tab"]:focus-visible,
+[data-tasks-return]:focus-visible { outline:2px solid #ef3124; outline-offset:3px; }
+#tasks-panel[hidden], #rewards-panel[hidden] { display:none; }
+.prototype-rewards-empty { display:flex; flex-direction:column; align-items:center; text-align:center; padding:48px 16px 32px; gap:24px; }
+.prototype-rewards-placeholder { width:160px; height:160px; border-radius:16px; background:var(--newclick-marketplace-ui-color-light-bg-secondary, #f2f3f5); }
+.prototype-rewards-empty h2 { margin:0; }
