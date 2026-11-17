@@ -39,3 +39,8 @@ body[data-screen="benefits"] [data-test-id="fakeFooter"] {
 }
 /* Horizontal carousels must not create a nested vertical scroll area. */
 .swiper { overflow-y:hidden!important; }
+/* The sticky section tabs share the archived app's 600px desktop canvas. */
+body[data-screen="benefits"] .R0SUO.Osj0W {
+  max-width:600px;
+  margin-inline:auto;
+}
